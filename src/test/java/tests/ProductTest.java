@@ -11,6 +11,8 @@ public class ProductTest extends BaseTest {
 public void item() throws InterruptedException {
 	Thread.sleep(2000);
 	ProductPage pro=new ProductPage(driver);
-	pro.addproducts();
+	
+	pro.addProducts();
+	
 }
 }
