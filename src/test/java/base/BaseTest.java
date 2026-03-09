@@ -26,6 +26,7 @@ public class BaseTest {
         options.setExperimentalOption("prefs", prefs);
         driver = new ChromeDriver(options);
         mail="rayush+"+System.currentTimeMillis()+"@gmail.com";
+        System.out.println("Your registerd mail is: "+mail);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(15));
