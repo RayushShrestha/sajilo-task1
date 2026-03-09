@@ -1,27 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Product is visible in the cart]]>
-    </line>
   </reporter-output>
-  <suite started-at="2026-03-09T18:16:01 NPT" name="Default suite" finished-at="2026-03-09T18:16:12 NPT" duration-ms="11921">
+  <suite started-at="2026-03-09T20:18:44 NPT" name="Default suite" finished-at="2026-03-09T20:18:56 NPT" duration-ms="12308">
     <groups>
     </groups>
-    <test started-at="2026-03-09T18:16:01 NPT" name="Default test" finished-at="2026-03-09T18:16:12 NPT" duration-ms="11921">
-      <class name="tests.ProductTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@5bda8e08]" started-at="2026-03-09T18:16:01 NPT" name="setup" finished-at="2026-03-09T18:16:05 NPT" duration-ms="4098" status="PASS">
+    <test started-at="2026-03-09T20:18:44 NPT" name="Default test" finished-at="2026-03-09T20:18:56 NPT" duration-ms="12308">
+      <class name="tests.SignUptest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SignUptest@3eb738bb]" started-at="2026-03-09T20:18:44 NPT" name="setup" finished-at="2026-03-09T20:18:46 NPT" duration-ms="2757" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="item()[pri:0, instance:tests.ProductTest@5bda8e08]" started-at="2026-03-09T18:16:05 NPT" name="item" finished-at="2026-03-09T18:16:12 NPT" duration-ms="7774" status="PASS">
+        <test-method signature="signup()[pri:0, instance:tests.SignUptest@3eb738bb]" started-at="2026-03-09T20:18:46 NPT" name="signup" finished-at="2026-03-09T20:18:56 NPT" duration-ms="9487" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Product is visible in the cart]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- item -->
-      </class> <!-- tests.ProductTest -->
+        </test-method> <!-- signup -->
+      </class> <!-- tests.SignUptest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
