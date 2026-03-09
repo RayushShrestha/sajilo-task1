@@ -2,20 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-09T17:00:21 NPT" name="Default suite" finished-at="2026-03-09T17:00:29 NPT" duration-ms="8618">
+  <suite started-at="2026-03-09T17:28:12 NPT" name="Default suite" finished-at="2026-03-09T17:28:23 NPT" duration-ms="11137">
     <groups>
     </groups>
-    <test started-at="2026-03-09T17:00:21 NPT" name="Default test" finished-at="2026-03-09T17:00:29 NPT" duration-ms="8618">
-      <class name="tests.ProductTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@5bda8e08]" started-at="2026-03-09T17:00:21 NPT" name="setup" finished-at="2026-03-09T17:00:25 NPT" duration-ms="3955" status="PASS">
+    <test started-at="2026-03-09T17:28:12 NPT" name="Default test" finished-at="2026-03-09T17:28:23 NPT" duration-ms="11137">
+      <class name="tests.SignUptest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SignUptest@185a6e9]" started-at="2026-03-09T17:28:12 NPT" name="setup" finished-at="2026-03-09T17:28:16 NPT" duration-ms="4010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="item()[pri:0, instance:tests.ProductTest@5bda8e08]" started-at="2026-03-09T17:00:25 NPT" name="item" finished-at="2026-03-09T17:00:29 NPT" duration-ms="4607" status="PASS">
+        <test-method signature="signup()[pri:0, instance:tests.SignUptest@185a6e9]" started-at="2026-03-09T17:28:16 NPT" name="signup" finished-at="2026-03-09T17:28:23 NPT" duration-ms="6847" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- item -->
-      </class> <!-- tests.ProductTest -->
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUptest@185a6e9]" started-at="2026-03-09T17:28:23 NPT" name="tearDown" finished-at="2026-03-09T17:28:23 NPT" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SignUptest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
