@@ -26,7 +26,7 @@ public class BaseTest {
         prefs.put("autofill.credit_card_enabled", false);
 
         options.setExperimentalOption("prefs", prefs);
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -34,11 +34,11 @@ public class BaseTest {
 
     }
 
-    @AfterMethod
-    public void tearDown() {
-
-        driver.quit();
-
-    }
+//    @AfterMethod
+//    public void tearDown() {
+//
+//        driver.quit();
+//
+//    }
 
 }

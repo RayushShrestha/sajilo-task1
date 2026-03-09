@@ -10,10 +10,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class SignUpPage {
 
 	WebDriver driver;
-
-	public SignUpPage(WebDriver driver, WebDriverWait wait) {
+	WebDriverWait wait;
+	public SignUpPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
+		
 	}
 
 	@FindBy(name = "name")
