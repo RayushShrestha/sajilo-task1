@@ -1,43 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Product is visible in the cart]]>
+    </line>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2026-03-09T18:35:28 NPT" name="Default suite" finished-at="2026-03-09T18:35:42 NPT" duration-ms="13772">
+  <suite started-at="2026-03-09T20:33:22 NPT" name="Default suite" finished-at="2026-03-09T20:33:32 NPT" duration-ms="9858">
     <groups>
     </groups>
-    <test started-at="2026-03-09T18:35:28 NPT" name="Default test" finished-at="2026-03-09T18:35:42 NPT" duration-ms="13772">
+    <test started-at="2026-03-09T20:33:22 NPT" name="Default test" finished-at="2026-03-09T20:33:32 NPT" duration-ms="9858">
       <class name="tests.ProductTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@6f03482]" started-at="2026-03-09T18:35:28 NPT" name="setup" finished-at="2026-03-09T18:35:33 NPT" duration-ms="4396" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@6f03482]" started-at="2026-03-09T20:33:22 NPT" name="setup" finished-at="2026-03-09T20:33:26 NPT" duration-ms="3858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="item()[pri:0, instance:tests.ProductTest@6f03482]" started-at="2026-03-09T18:35:33 NPT" name="item" finished-at="2026-03-09T18:35:42 NPT" duration-ms="8979" status="PASS">
-=======
-  <suite started-at="2026-03-09T20:18:44 NPT" name="Default suite" finished-at="2026-03-09T20:18:56 NPT" duration-ms="12308">
-    <groups>
-    </groups>
-    <test started-at="2026-03-09T20:18:44 NPT" name="Default test" finished-at="2026-03-09T20:18:56 NPT" duration-ms="12308">
-      <class name="tests.SignUptest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SignUptest@3eb738bb]" started-at="2026-03-09T20:18:44 NPT" name="setup" finished-at="2026-03-09T20:18:46 NPT" duration-ms="2757" status="PASS">
+        <test-method signature="item()[pri:0, instance:tests.ProductTest@6f03482]" started-at="2026-03-09T20:33:26 NPT" name="item" finished-at="2026-03-09T20:33:32 NPT" duration-ms="5709" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Product is visible in the cart]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="signup()[pri:0, instance:tests.SignUptest@3eb738bb]" started-at="2026-03-09T20:18:46 NPT" name="signup" finished-at="2026-03-09T20:18:56 NPT" duration-ms="9487" status="PASS">
->>>>>>> product
-          <reporter-output>
-          </reporter-output>
-<<<<<<< HEAD
         </test-method> <!-- item -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@6f03482]" started-at="2026-03-09T18:35:42 NPT" name="tearDown" finished-at="2026-03-09T18:35:42 NPT" duration-ms="328" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@6f03482]" started-at="2026-03-09T20:33:32 NPT" name="tearDown" finished-at="2026-03-09T20:33:32 NPT" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.ProductTest -->
-=======
-        </test-method> <!-- signup -->
-      </class> <!-- tests.SignUptest -->
->>>>>>> product
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
