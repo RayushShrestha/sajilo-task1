@@ -5,37 +5,37 @@
       <![CDATA[Product is visible in the cart]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-03-09T20:56:36 NPT" name="AllTestsSuite" finished-at="2026-03-09T20:56:57 NPT" duration-ms="20680">
+  <suite started-at="2026-03-09T21:02:19 NPT" name="AllTestsSuite" finished-at="2026-03-09T21:02:37 NPT" duration-ms="18215">
     <groups>
     </groups>
-    <test started-at="2026-03-09T20:56:36 NPT" name="AllTests" finished-at="2026-03-09T20:56:57 NPT" duration-ms="20680">
+    <test started-at="2026-03-09T21:02:19 NPT" name="AllTests" finished-at="2026-03-09T21:02:37 NPT" duration-ms="18215">
       <class name="tests.SignUptest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SignUptest@6b81ce95]" started-at="2026-03-09T20:56:48 NPT" name="setup" finished-at="2026-03-09T20:56:51 NPT" duration-ms="3632" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SignUptest@6b81ce95]" started-at="2026-03-09T21:02:28 NPT" name="setup" finished-at="2026-03-09T21:02:31 NPT" duration-ms="2858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="signup()[pri:0, instance:tests.SignUptest@6b81ce95]" started-at="2026-03-09T20:56:51 NPT" name="signup" finished-at="2026-03-09T20:56:57 NPT" duration-ms="5744" status="PASS">
+        <test-method signature="signup()[pri:0, instance:tests.SignUptest@6b81ce95]" started-at="2026-03-09T21:02:31 NPT" name="signup" finished-at="2026-03-09T21:02:37 NPT" duration-ms="5505" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUptest@6b81ce95]" started-at="2026-03-09T20:56:57 NPT" name="tearDown" finished-at="2026-03-09T20:56:57 NPT" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUptest@6b81ce95]" started-at="2026-03-09T21:02:37 NPT" name="tearDown" finished-at="2026-03-09T21:02:37 NPT" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.SignUptest -->
       <class name="tests.ProductTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@479d31f3]" started-at="2026-03-09T20:56:37 NPT" name="setup" finished-at="2026-03-09T20:56:41 NPT" duration-ms="4663" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@479d31f3]" started-at="2026-03-09T21:02:19 NPT" name="setup" finished-at="2026-03-09T21:02:23 NPT" duration-ms="4116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="item()[pri:0, instance:tests.ProductTest@479d31f3]" started-at="2026-03-09T20:56:41 NPT" name="item" finished-at="2026-03-09T20:56:47 NPT" duration-ms="6229" status="PASS">
+        <test-method signature="item()[pri:0, instance:tests.ProductTest@479d31f3]" started-at="2026-03-09T21:02:23 NPT" name="item" finished-at="2026-03-09T21:02:28 NPT" duration-ms="5200" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Product is visible in the cart]]>
             </line>
           </reporter-output>
         </test-method> <!-- item -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@479d31f3]" started-at="2026-03-09T20:56:47 NPT" name="tearDown" finished-at="2026-03-09T20:56:48 NPT" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@479d31f3]" started-at="2026-03-09T21:02:28 NPT" name="tearDown" finished-at="2026-03-09T21:02:28 NPT" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
