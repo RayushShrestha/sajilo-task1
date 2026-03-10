@@ -16,7 +16,7 @@ import org.testng.Reporter;
 public class ProductPage {
 	WebDriver driver;
 	WebDriverWait wait;
-	Actions actions; 
+	Actions actions;
 
 	public ProductPage(WebDriver driver) {
 		this.driver = driver;
@@ -50,7 +50,6 @@ public class ProductPage {
 		cart.click();
 		String intialCount = cart.findElement(By.xpath("//b")).getText();
 		navProduct.click();
-		
 		if (product.getText().contains("Add to cart")) {
 			product.click();
 		}
@@ -85,9 +84,9 @@ public class ProductPage {
 		confirmButton.click();
 		actions.sendKeys("Hello World").perform();
 		confirmButton.click();
-	
+
 		actions.sendKeys("Hello World").perform();
-		
+
 		confirmButton.click();
 
 		actions.sendKeys("3656").perform();
@@ -98,6 +97,7 @@ public class ProductPage {
 		confirmButton.click();
 		continueBtn.click();
 	}
+
 	public void logout() {
 		signout.click();
 	}
