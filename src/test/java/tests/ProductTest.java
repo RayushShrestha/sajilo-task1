@@ -10,7 +10,7 @@ import pages.SignUpPage;
 
 public class ProductTest extends BaseTest {
 	
-@Test
+@Test(description = "Verify that user can add a product to the cart")
 public void item() throws InterruptedException {
 	SignUpPage sign=new SignUpPage(driver);
 	sign.signUp("rayush shrestha", mail);
@@ -22,5 +22,6 @@ public void item() throws InterruptedException {
 	
 	pro.addProducts();
 	pro.payment();
+	pro.logout();
 }
 }

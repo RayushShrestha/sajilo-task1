@@ -43,12 +43,14 @@ public class ProductPage {
 	WebElement confirmButton;
 	@FindBy(xpath = "//a[.='Continue']")
 	WebElement continueBtn;
+	@FindBy(xpath = "//a[.=' Logout']")
+	WebElement signout;
 
 	public void addProducts() {
 		cart.click();
 		String intialCount = cart.findElement(By.xpath("//b")).getText();
 		navProduct.click();
-		System.out.println(product.getText());
+		
 		if (product.getText().contains("Add to cart")) {
 			product.click();
 		}
@@ -95,5 +97,8 @@ public class ProductPage {
 		actions.sendKeys("2026").perform();
 		confirmButton.click();
 		continueBtn.click();
+	}
+	public void logout() {
+		signout.click();
 	}
 }

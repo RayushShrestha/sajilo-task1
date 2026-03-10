@@ -5,16 +5,16 @@
       <![CDATA[Product is visible in the cart]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-03-10T13:42:27 NPT" name="Default suite" finished-at="2026-03-10T13:42:48 NPT" duration-ms="21555">
+  <suite started-at="2026-03-10T13:48:21 NPT" name="Default suite" finished-at="2026-03-10T13:48:46 NPT" duration-ms="24816">
     <groups>
     </groups>
-    <test started-at="2026-03-10T13:42:27 NPT" name="Default test" finished-at="2026-03-10T13:42:48 NPT" duration-ms="21555">
+    <test started-at="2026-03-10T13:48:21 NPT" name="Default test" finished-at="2026-03-10T13:48:46 NPT" duration-ms="24816">
       <class name="tests.ProductTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@5bda8e08]" started-at="2026-03-10T13:42:27 NPT" name="setup" finished-at="2026-03-10T13:42:31 NPT" duration-ms="4488" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@662ac478]" started-at="2026-03-10T13:48:21 NPT" name="setup" finished-at="2026-03-10T13:48:25 NPT" duration-ms="4081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="item()[pri:0, instance:tests.ProductTest@5bda8e08]" started-at="2026-03-10T13:42:31 NPT" name="item" finished-at="2026-03-10T13:42:48 NPT" duration-ms="17025" status="PASS">
+        <test-method signature="item()[pri:0, instance:tests.ProductTest@662ac478]" started-at="2026-03-10T13:48:25 NPT" name="item" description="Verify that user can add a product to the cart" finished-at="2026-03-10T13:48:46 NPT" duration-ms="20693" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Product is visible in the cart]]>

@@ -6,7 +6,7 @@ import pages.SignUpPage;
 
 public class SignUptest extends BaseTest {
 
-	@Test
+	@Test(description = "Verify that user can register using valid data")
 	public void signup() {
 
 		SignUpPage signup = new SignUpPage(driver);
