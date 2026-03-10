@@ -5,26 +5,22 @@
       <![CDATA[Product is visible in the cart]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-03-09T20:57:46 NPT" name="Default suite" finished-at="2026-03-09T20:57:56 NPT" duration-ms="10009">
+  <suite started-at="2026-03-10T13:42:27 NPT" name="Default suite" finished-at="2026-03-10T13:42:48 NPT" duration-ms="21555">
     <groups>
     </groups>
-    <test started-at="2026-03-09T20:57:46 NPT" name="Default test" finished-at="2026-03-09T20:57:56 NPT" duration-ms="10009">
+    <test started-at="2026-03-10T13:42:27 NPT" name="Default test" finished-at="2026-03-10T13:42:48 NPT" duration-ms="21555">
       <class name="tests.ProductTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@6f03482]" started-at="2026-03-09T20:57:46 NPT" name="setup" finished-at="2026-03-09T20:57:50 NPT" duration-ms="3810" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@5bda8e08]" started-at="2026-03-10T13:42:27 NPT" name="setup" finished-at="2026-03-10T13:42:31 NPT" duration-ms="4488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="item()[pri:0, instance:tests.ProductTest@6f03482]" started-at="2026-03-09T20:57:50 NPT" name="item" finished-at="2026-03-09T20:57:56 NPT" duration-ms="5966" status="PASS">
+        <test-method signature="item()[pri:0, instance:tests.ProductTest@5bda8e08]" started-at="2026-03-10T13:42:31 NPT" name="item" finished-at="2026-03-10T13:42:48 NPT" duration-ms="17025" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Product is visible in the cart]]>
             </line>
           </reporter-output>
         </test-method> <!-- item -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@6f03482]" started-at="2026-03-09T20:57:56 NPT" name="tearDown" finished-at="2026-03-09T20:57:56 NPT" duration-ms="192" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- tests.ProductTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

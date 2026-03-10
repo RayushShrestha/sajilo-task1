@@ -28,17 +28,16 @@ public class BaseTest {
         mail="rayush+"+System.currentTimeMillis()+"@gmail.com";
         System.out.println("Your registerd mail is: "+mail);
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(15));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.get("https://automationexercise.com/login");
 
     }
 
-    @AfterMethod
-    public void tearDown() {
-
-        driver.quit();
-
-    }
+//    @AfterMethod
+//    public void tearDown() {
+//
+//        driver.quit();
+//
+//    }
 
 }
